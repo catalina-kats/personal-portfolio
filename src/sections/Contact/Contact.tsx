@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <Space direction="vertical">
-      <Typography.Title level={2} style={{ margin: 0 }}>
+      <Typography.Title level={2} style={{ margin: 0, textAlign: "center" }}>
         {t("contactSectionTitle")}
       </Typography.Title>
 
