@@ -47,7 +47,7 @@ const Home = ({ darkMode, toggleDarkMode }: HomeProps) => {
   return (
     <>
       <Parallax
-        pages={7}
+        pages={5}
         style={{
           backgroundColor: darkMode ? "black" : "white",
           color: darkMode ? "white" : "black",
@@ -55,48 +55,48 @@ const Home = ({ darkMode, toggleDarkMode }: HomeProps) => {
       >
         <ParallaxLayer
           offset={0}
-          speed={10}
+          speed={5}
           style={{ ...alignCenter, justifyContent: "flex-start" }}
         >
           <Jumbotron ref={ref} />
         </ParallaxLayer>
         <ParallaxLayer
-          offset={1}
+          offset={0.8}
           speed={2}
           style={{ ...alignCenter, justifyContent: "center" }}
         >
           <AboutMe />
         </ParallaxLayer>
         <ParallaxLayer
-          offset={2}
+          offset={1}
           speed={1.4}
           style={{ ...alignCenter, justifyContent: "center" }}
         >
           <SkillsSection />
         </ParallaxLayer>
         <ParallaxLayer
-          offset={3}
+          offset={2}
           speed={1.4}
           style={{ ...alignCenter, justifyContent: "center" }}
         >
           <Experience />
         </ParallaxLayer>
         <ParallaxLayer
-          offset={4}
+          offset={3}
           speed={1}
           style={{ ...alignCenter, justifyContent: "center" }}
         >
           <EducationSection />
         </ParallaxLayer>
         <ParallaxLayer
-          offset={5}
+          offset={3.9}
           speed={1}
           style={{ ...alignCenter, justifyContent: "center" }}
         >
           <PersonalPortfolio />
         </ParallaxLayer>
         <ParallaxLayer
-          offset={6}
+          offset={4}
           speed={1}
           style={{ ...alignCenter, justifyContent: "center" }}
         >
