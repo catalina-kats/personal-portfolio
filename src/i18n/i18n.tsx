@@ -112,7 +112,7 @@ i18n
                 description: "Website that I designed and built for learning Typescript, ant.design theme and component customization and language variety implementation",
                 tags: ["Web app", "React", "Typescript", "ant.design"],
                 links: [
-                  {repo: "https://github.com/catalina-kats/personal-portfolio", siteUrl: "https://www.google.com"}
+                  {repo: "https://github.com/catalina-kats/personal-portfolio", siteUrl: "https://catalinanavarrete.netlify.app/"}
                 ]
               }
             ],
@@ -231,7 +231,7 @@ i18n
                 description: "Sitio web que diseñé y construí para aprender Typescript, customización de temas y componentes de ant.design y opción de idiomas",
                 tags: ["Web app", "React", "Typescript", "ant.design"],
                 links: [
-                  {repo: "https//www.google.com", siteUrl: "https://www.google.com"}
+                  {repo: "https://github.com/catalina-kats/personal-portfolio", siteUrl: "https://catalinanavarrete.netlify.app/"}
                 ]
               }
             ],
